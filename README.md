@@ -28,8 +28,6 @@ A modern personal finance & expense tracker .
 
 </p>
 
-> Upload **Pocket.apk** to **GitHub Releases** to make the button work automatically.
-
 ---
 
 # ✨ About Pocket
