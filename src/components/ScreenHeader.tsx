@@ -50,7 +50,7 @@ export const ScreenHeader: React.FC<ScreenHeaderProps> = ({
 
         <View style={styles.titleWrap}>
           <Text variant="h3" center>{title}</Text>
-          {subtitle && <Text caption secondary center>{subtitle}</Text>}
+          {subtitle && <Text variant="caption" secondary center>{subtitle}</Text>}
         </View>
 
         <View style={styles.rightWrap}>{right ?? <View style={styles.backBtn} />}</View>

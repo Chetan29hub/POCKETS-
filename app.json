@@ -11,15 +11,17 @@
       "resizeMode": "contain",
       "backgroundColor": "#0A0A0F"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.pocket.finance"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0A0A0F"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#5B2EFF"
       },
       "package": "com.pocket.finance",
       "permissions": [
@@ -29,14 +31,10 @@
         "WRITE_EXTERNAL_STORAGE"
       ]
     },
-    "plugins": [
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/notification-icon.png",
-          "color": "#8B5CF6"
-        }
-      ]
-    ]
+    "extra": {
+      "eas": {
+        "projectId": "55d636d4-6bf9-41ca-98f4-074f8f7228fe"
+      }
+    }
   }
 }
